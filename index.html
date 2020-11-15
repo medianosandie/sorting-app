@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">  
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Sorting App</h1>
+        <div class="container-input">
+            <h4>input angka</h4>
+            <input type="text" placeholder="masukkan angka" id="input-data">
+            <button id="tambah-data">Tambahkan Angka</button>
+        </div>
+        <div class="container-hasil">
+            <h4>angka yang dimasukkan</h4>
+            <ul></ul>
+            <button id="reset-data">Reset</button>
+        </div>
+        <div class="hasil-sorting">
+            <h4>hasil sorting</h4>
+            <ul></ul>
+            <div class="radio-group">
+                <div class="asc-group">
+                    <label for="asc">Asc</label>
+                    <input type="radio" name="order" value="1" checked="checked">
+                </div>
+                <div class="desc-group">
+                    <label for="desc">Desc</label>
+                    <input type="radio" name="order" value="0">
+                </div> 
+            </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
